@@ -1,0 +1,45 @@
+.ship-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     text-align: center;
+  
+    padding: 10px 50px;
+    background-color:white;
+  }
+  
+  .ship-item  {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .ship-icon {
+    margin-right: 8px;
+    color: #2b8a3e;
+  }
+  
+  .ship-item:not(:last-child) {
+    text-align: center;
+    margin-left: 10px;
+   
+    border-right: 1px solid #ccc;
+    padding:10px 70px;
+  }
+  
+  .ship-item .tal{
+    font-weight: 300;
+    color:black;
+    margin-left: 5px;
+  }
+  
+  @media ( max-width:991px){
+    .ship-container {
+      display: none;
+    }
+
+
+  }
+  
+  

@@ -1,0 +1,36 @@
+.natural-container {
+    background-color: #fff4e6; 
+    margin: 10px 20px ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .natural-text h2 {
+    color: #2f9e44; 
+    font-size: 23px;
+    margin: 0;
+  }
+  
+  .natural-text p {
+    color: #666666; 
+    font-size: 15px;
+    margin: 5px 0 0 0;
+  }
+  
+  .shop-now-btn {
+    background-color: #2f9e44; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #28a745; 
+  }
+  

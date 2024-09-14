@@ -1,0 +1,184 @@
+.contact-header {
+  background-color:#ADD8E6;
+  display: flex;
+ justify-content: space-between;
+  height: 130px;
+ display: flex;
+ 
+}
+.header-image{
+ width:330px;
+ height: 130px;
+
+
+}
+.header-image-start{
+ width:220px;
+ height:130px;
+
+}
+.contact-header h2 {
+ padding-top: 25px;
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+.unique-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px;
+}
+
+.unique-text-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.unique-text-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.unique-text-container p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.unique-stat-container {
+  display: flex;
+  gap: 20px;
+}
+
+.unique-stat-box {
+  background-color: #f0f4f8;
+  padding: 10px 30px;
+  border-radius: 10px;
+  
+}
+
+.unique-stat-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.unique-stat-box p {
+  font-size: 14px;
+  color: #666;
+}
+.bl{
+  font-weight: bold;
+  color:black;
+}
+
+.unique-image-container {
+  flex: 1;
+}
+
+.unique-image-container img {
+  width: 93%;
+  height: 90%;
+  border-radius: 10px;
+}
+@media screen and (max-width:991px){
+  .unique-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+  .unique-image-container {
+    margin-top: 30px;
+  }
+  .unique-image-container img {
+    width: 95%;
+  }
+  .contact-header h2 {
+    padding-left: 30px;}
+}
+@media screen and (max-width:430px){
+  .unique-stat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .unique-text-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .header-image{
+    width:150px;
+    height: 80px;
+}
+.header-image-start{
+    width:150px;
+    height: 80px;
+
+}
+.contact-header h2 {
+    font-size: 18px;
+}
+.contact-header {
+    height: 80px;
+}
+
+
+}
+@media screen and (max-width: 390px) {
+  .contact-header h2 {
+    width:100px;
+      font-size: 17px;
+  }
+  .header-image{
+      width:120px;
+      height: 80px;
+  }
+  .header-image-start{
+      width:120px;
+      height: 80px;
+  
+  }
+
+}
+@media screen and (max-width: 375px) {
+  .contact-header h2 {
+      font-size: 17px;
+  }
+  .header-image{
+      width:120px;
+      height: 80px;
+  }
+  .header-image-start{
+      width:120px;
+      height: 80px;
+  
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .contact-header h2 {
+      width:100px;
+    padding-top: 10px;
+      font-size: 16px;
+  }
+  .header-image{
+     
+      width:90px;
+      height: 70px;
+  }
+  .header-image-start{
+      width:105px;
+      height: 70px;
+  
+  }
+  .contact-header {
+      height: 70px;
+ }
+ .contact-grid {
+  padding: 50px 25px;
+ 
+}
+
+}

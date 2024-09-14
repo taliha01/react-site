@@ -1,0 +1,56 @@
+.Navbar-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0px 30px;
+  padding-bottom: 40px;
+  font-size: 14px;
+  position: fixed; /* Make Navbar fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Keep it above other content */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hiding */
+}
+
+.Navbar-bar.visible {
+  transform: translateY(0); /* Fully visible */
+}
+
+.api{
+  margin-right: 70px;
+}
+.Navbar-bar.hidden {
+  transform: translateY(-100%); /* Hidden above the viewport */
+}
+
+  .phone-icon {
+    color: gray;
+  }
+  .ayesha {
+    color: #000000;
+  }
+  .ayesha p{
+    font-weight: 400;
+  }
+  
+  .api a {
+    color: #000000;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .api a:hover {
+    text-decoration: underline;
+  }
+  span{
+    font-weight: bold;
+    color: #32b567;
+  }
+  @media (max-width:991px){
+    .Navbar-bar{
+      display:none 
+    }
+  }
+  
